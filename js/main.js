@@ -1,8 +1,12 @@
 const app = new Vue({
   el: '#app',
   data: {
-    source: 'http://via.placeholder.com/640x360',
-    text: 'Testo random di prova',
-    alt: 'random image from the internet',
+    header: {
+      text: 'Testo random di prova',
+    },
+    image: {
+      source: 'https://picsum.photos/id/1002/600/400',
+      alt: 'random image from the internet',
+    },
   },
 });
