@@ -7,6 +7,7 @@ const app = new Vue({
     image: {
       source: 'https://picsum.photos/id/1002/600/400',
       alt: 'random image from the internet',
+      counter: 0,
     },
   },
 });
