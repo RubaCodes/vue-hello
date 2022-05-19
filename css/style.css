@@ -4,3 +4,17 @@
   margin: 0;
   padding: 0;
 }
+#app {
+  padding: 40px;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+#app img {
+  border-radius: 20px;
+}
